@@ -1,0 +1,70 @@
+body{
+    background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2017/03/Netflix-Popcorn.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: white;
+    
+}
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container .con{
+    height: 447px;
+    width: 361px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+.container .con .img{
+    height: 141px;
+    width: 141px;
+    background-color: red;
+    margin-left: 116.5px;
+    margin-top: -59px;
+    border-radius: 70px;
+    overflow: hidden;
+}
+.container .con .img img{
+    height: 176px;
+    width: 200px;
+    margin-left: -30px;
+    margin-top: -15px;
+}
+.container .content{
+    margin-left: 29px;
+}
+.container .content .log{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 7px;
+}
+.container .content input{
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid rgb(126, 126, 126);
+    padding: 9px;
+    width: 81%;
+    margin-top: -9px;
+}
+.container .content button{
+    border: none;
+    outline: none;
+    margin-top: 22px;
+    padding: 8px 129px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: rgb(12, 85, 136);
+    color: white;
+}
+.container .content .f{
+    font-size: 14px;
+    
+}
+button:hover{
+    cursor: pointer;
+}
